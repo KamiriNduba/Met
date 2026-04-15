@@ -249,7 +249,7 @@ export default function Home() {
             <div className="relative z-10">
               <h2 className="text-4xl font-bold mb-4">Piloting in Nairobi</h2>
               <p className="text-xl text-white/90 mb-10 max-w-xl">
-                Currently in discussions with professional SACCOs for our Q3 2024 pilot program. Be the first to know.
+                Currently in discussions with professional SACCOs for our Q1 2026 pilot program. Be the first to know.
               </p>
               
               <form className="flex flex-col sm:flex-row gap-4 max-w-lg" onSubmit={(e) => e.preventDefault()}>
@@ -276,13 +276,13 @@ export default function Home() {
             </div>
             
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-              <a href="mailto:hello@metroostechnologies.com" className="hover:text-white transition-colors">hello@metroostechnologies.com</a>
+              <a href="mailto:metroostech@gmail.com" className="hover:text-white transition-colors">metroostech@gmail.com</a>
               <a href="https://linkedin.com/company/metroos-technologies" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
             </div>
           </div>
           
           <div className="mt-8 text-center md:text-left text-sm text-white/40">
-            &copy; 2024 MetroOS Technologies. All rights reserved.
+            &copy; 2026 MetroOS Technologies. All rights reserved.
           </div>
         </div>
       </footer>
