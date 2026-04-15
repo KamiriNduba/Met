@@ -44,8 +44,9 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <img src="/logo.png" alt="MetroOS Logo" className="h-16 object-contain contrast-[1.5] saturate-[1.8] brightness-[0.85]" />
+        <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <img src="/favicon.svg" alt="MetroOS Icon" className="h-8 w-8" />
+          <span className="text-lg font-semibold tracking-tight text-foreground">MetroOS</span>
         </div>
         
         <div className="hidden md:flex items-center gap-8">
