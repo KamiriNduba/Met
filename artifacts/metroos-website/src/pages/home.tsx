@@ -45,7 +45,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <img src="/logo.png" alt="MetroOS Logo" className="h-10 object-contain p-1 bg-white/50 rounded-lg" />
+          <img src="/logo.png" alt="MetroOS Logo" className="h-16 object-contain contrast-[1.5] saturate-[1.8] brightness-[0.85]" />
         </div>
         
         <div className="hidden md:flex items-center gap-8">
